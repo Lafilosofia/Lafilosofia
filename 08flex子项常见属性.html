@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 800px;
+        height: 500px;
+        background-color: pink;
+        display: flex;
+      }
+      span:nth-child(1) {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      span:nth-child(2) {
+        /* 子属性flex 值必须是数字 */
+        flex: 1;
+        height: 100px;
+        background-color: purple;
+      }
+      span:nth-child(3) {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+  </body>
+</html>

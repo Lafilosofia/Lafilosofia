@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80%;
+        height: 500px;
+        background-color: pink;
+        /* 转为flex布局 */
+        display: flex;
+        /* 1.默认值从左到右 */
+        /* flex-direction: row; */
+        /* 2.从右到左 */
+        /* flex-direction: row-reverse; */
+        /* 3. 设置主轴为Y轴从上到下 */
+        /* flex-direction: column; */
+        /* 4. 设置主轴为Y轴从下到上 */
+        /* flex-direction: column-reverse; */
+      }
+      span {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+    </div>
+    1
+  </body>
+</html>

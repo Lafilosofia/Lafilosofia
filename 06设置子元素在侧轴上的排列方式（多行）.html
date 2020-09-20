@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 500px;
+        background-color: pink;
+        /* 开启flex布局 */
+        display: flex;
+        /* 换行 */
+        flex-wrap: wrap;
+        /* 4.在侧轴上子元素的排列方式 */
+        /* align-content: space-around; */
+        /* 5.子项在侧轴两边对齐平分剩余空间 */
+        /* align-content: space-between; */
+        /* 6.设置子项元素高度平分父元素高度 */
+        /* align-content: stretch; */
+      }
+      span {
+        width: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+  </body>
+</html>
